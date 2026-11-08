@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">welcome2forever</title>
+<desc id="desc">Web development, Python and automation. A dark violet and cyan coding banner.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1020"/><stop offset=".6" stop-color="#14152c"/><stop offset="1" stop-color="#10273b"/></linearGradient>
+  <linearGradient id="accent" x2="1" y2=".3"><stop stop-color="#83e8ff"/><stop offset="1" stop-color="#b79aff"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#8062e9" stop-opacity=".23"/><stop offset="1" stop-color="#8062e9" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#a7a9ed" stroke-opacity=".05"/></pattern>
+  <clipPath id="clip"><rect width="1200" height="360" rx="24"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+  <ellipse cx="880" cy="100" rx="420" ry="330" fill="url(#halo)"/>
+  <path d="M-60 335C180 200 330 450 610 320S1000 220 1260 90" stroke="url(#accent)" opacity=".17" fill="none"/>
+  <path d="M-60 355C180 220 330 470 610 340S1000 240 1260 110" stroke="url(#accent)" opacity=".08" fill="none"/>
+  <g font-family="'Segoe UI',Arial,sans-serif">
+    <rect x="54" y="48" width="192" height="28" rx="14" fill="#a69afc" fill-opacity=".09" stroke="#b49aff" stroke-opacity=".18"/>
+    <circle cx="71" cy="62" r="3.5" fill="#84e1d1"/>
+    <text x="84" y="67" fill="#bdb4e9" font-size="11" letter-spacing="2">LEARN. BUILD. REPEAT.</text>
+    <text x="54" y="156" fill="#f4f3ff" font-size="64" font-weight="750" letter-spacing="-2.4">welcome2forever<tspan fill="#9ce8ff">.</tspan></text>
+    <text x="57" y="201" fill="#b3b8d6" font-size="19" letter-spacing=".3">web development / python / automation</text>
+    <rect x="56" y="238" width="3" height="31" rx="1.5" fill="url(#accent)"/>
+    <text x="72" y="250" fill="#e0e4f6" font-size="14">От идеи до работающего проекта.</text>
+    <text x="72" y="270" fill="#7e8aa9" font-size="12">РТУ МИРЭА · full-stack journey</text>
+  </g>
+  <g transform="translate(792 79)">
+    <rect x="0" y="0" width="348" height="213" rx="15" fill="#090e1d" fill-opacity=".82" stroke="#a4b5eb" stroke-opacity=".17"/>
+    <path d="M0 38H348" stroke="#9baaf1" stroke-opacity=".1"/>
+    <circle cx="19" cy="19" r="4" fill="#b79aff"/><circle cx="34" cy="19" r="4" fill="#7bc5ef"/><circle cx="49" cy="19" r="4" fill="#80dacb"/>
+    <g font-family="Consolas,'Courier New',monospace" font-size="13">
+      <text x="241" y="23" fill="#65728f" font-size="10">profile.py</text>
+      <text x="22" y="72" fill="#c4a4ff">while <tspan fill="#8fdaff">curious</tspan><tspan fill="#e5e9ff">:</tspan></text>
+      <text x="40" y="102" fill="#dce3f9">learn<tspan fill="#8e9aba">()</tspan></text>
+      <text x="40" y="132" fill="#dce3f9">build<tspan fill="#8e9aba">()</tspan></text>
+      <text x="40" y="162" fill="#dce3f9">improve<tspan fill="#8e9aba">()</tspan></text>
+      <text x="22" y="195" fill="#7283a6" font-size="11"># one commit at a time</text>
+    </g>
+    <rect x="131" y="150" width="7" height="15" fill="#9ce8ff"><animate attributeName="opacity" values="1;1;0;0" dur="1.2s" repeatCount="indefinite"/></rect>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="359" rx="24" fill="none" stroke="#9fa7e8" stroke-opacity=".13"/>
+</g></svg>
